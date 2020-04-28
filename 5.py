@@ -22,8 +22,8 @@ class Solution:
             return tmp
 
         for i in range(0, len(s) - 1):
-            t1 = checkPali(i, i)
-            t2 = checkPali(i, i + 1)
+            t1 = check_pali(i, i)
+            t2 = check_pali(i, i + 1)
 
             if len(t1) > len(result):
                 result = t1
