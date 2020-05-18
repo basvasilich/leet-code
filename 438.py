@@ -13,7 +13,7 @@ class Solution:
         char_h = {}
 
         for i, c in enumerate(string.ascii_lowercase):
-            char_h[c] = (i + 1) ** 5
+            char_h[c] = (i + 1) ** 3
 
         p_h = sum([char_h[c] for c in p])
 
