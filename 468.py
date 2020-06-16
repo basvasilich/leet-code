@@ -7,7 +7,6 @@ import re
 class Solution:
     def validIPAddress(self, IP: str) -> str:
         results = ["IPv4", "IPv6", "Neither"]
-        hex_c = '123456789ABCDFEabcdfe'
 
         if IP.count('.') == 3:
             groups = IP.split('.')
