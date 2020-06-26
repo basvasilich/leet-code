@@ -12,3 +12,5 @@ class Solution:
                 return nums[i]
 
             prev = nums[i]
+
+        return -1
