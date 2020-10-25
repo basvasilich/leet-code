@@ -15,7 +15,7 @@ class Solution:
             for i in range(len(nums) - 1):
                 if nums[i] > nums[i + 1]:
                     return i
-            return i + 1
+            return len(nums) - 1
 
         def bs(start, end, target):
             if start > end or start < 0 or end >= len(nums):
