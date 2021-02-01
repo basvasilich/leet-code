@@ -1,3 +1,8 @@
+# https://leetcode.com/problems/diet-plan-performance/
+
+from typing import List
+
+
 class Solution:
     def dietPlanPerformance(self, calories: List[int], k: int, lower: int, upper: int) -> int:
         pointer_s = 0
